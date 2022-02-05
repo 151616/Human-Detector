@@ -1,0 +1,66 @@
+.copy-right-footer{
+    bottom: 0;
+    background-color:cadetblue;
+    color:blue;
+    text-align: center;
+    margin-top: 87px;
+    font-size: 23px;
+    position: fixed;
+    width: 100%;
+    border-style: ridge;
+    border-width: 6px;
+    animation-name: color;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    opacity: 80%;
+}
+@keyframes color{
+    0%{border-color: red; color: red;}
+    10%{border-color:blue;color: blue;}
+    20%{border-color:green;color: green;}
+    30%{border-color:purple;color: purple;}
+    40%{border-color:pink;color:pink;}
+    50%{border-color:yellow;color: yellow;}
+    60%{border-color:orange;color:orange;}
+    70%{border-color:gray;color: gray;}
+    80%{border-color:black;color:black;}
+    90%{border-color:white;color: white;}
+    100%{border-color:red;color:red;}
+}
+.header{
+    font-size: 23px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    color: midnightblue;
+    top: 0;
+    margin-top:-20px;
+    box-shadow: 5px 5px 5px darkslateblue;
+}
+.header div{
+    margin: 10px;
+}
+.div-instructions{
+    border: 6px aqua ridge;
+}
+.div-1{
+    font-size: 28px;
+}
+.div-2{
+    font-size: 28px;
+}
+canvas{
+    margin-top: 20px;
+    margin-left: 525px;
+    border: 7px darkred ridge;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px lightpink;
+}
+.status{
+    font-size: 18px;
+}
+.back{
+    margin-left: 1460px;
+    margin-top: 19px;
+    font-size: 20px;
+
+}
